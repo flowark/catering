@@ -1,0 +1,232 @@
+/*FONTS:*/
+*{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+}
+/*especifica la altura de una línea:*/
+p{
+	line-height: 1.6;
+}
+body{
+	background-color: #eeeeee;
+}
+h1,h2,h3{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+	columns: #212121;
+}
+.navbar-brand, .brand{
+	/*font-family: 'Raleway', sans-serif;*/
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+	letter-spacing: 1.0px;
+	color:#ffd600 !important;
+}
+.navbar-header a:hover, footer .brand:hover{
+	color:#e0e0e0 !important;
+	text-decoration: none;
+}
+#h2amarillo{
+	color: #ffd600;
+}
+/*HIPERVINCULOS NAVBAR*/
+.navbar .navbar-nav a{
+	letter-spacing: 0.5px;
+	/*Espacios entre palabras*/
+	margin-left : 0.2em;
+	margin-right : 0.2em;
+	font-size: 15px !important;
+}
+/*TITULOS CARRUSEL*/
+.carousel-caption h3{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+	font-size: 85px;
+}
+@media (max-width: 768px) {
+	.carousel-caption h3{
+		font-size: 25px;
+	}
+}
+.carousel-inner .item p{
+	background-color:rgba(0,0,0,.5);
+	border-radius: 10px;
+}
+.carousel-inner .item h3{
+	border-left: 6px solid #e0e0e0; 
+	background-color: rgba(95, 95, 95, 0.5);
+	border-radius: 4px;
+}
+/*IMAGENES*/
+/*filtro carrusel*/
+.carousel-inner img{
+	filter: sepia(0.25) brightness(0.95) contrast(0.95) saturate(1.5);
+}
+/*Imagenes pag principal*/
+#imgServicio{
+	width:255px; 
+	height:255px;
+}
+/*Imagenes de paginas*/
+#imgPagina{
+	width:8%;
+	float: none;
+	margin-right:15px;
+}
+/*HR*/
+#hrColorB{
+	border: 1px solid #212121;
+}
+#hrColorG{
+	border: 1px solid #e0e0e0;
+}
+/*BOTONES colors*/
+.btn-negroA, .btn-negroA:active, .btn-negroA:visited {
+	background-color: #ffd600 !important;
+	border: 2px solid #212121 !important;
+	color: #212121 !important;
+	text-decoration: none;
+}
+.btn-negroA:hover{
+	background-color: #212121 !important;
+	color: #e0e0e0 !important;
+}
+.btn-amarillo, .btn-amarillo:active, .btn-amarillo:visited {
+	background-color: #ffd600 !important;
+	border: 2px solid  #ffd600 !important; 
+	color: #000000 !important;
+	text-decoration: none;
+}
+.btn-amarillo:hover{
+	background-color: #212121  !important;
+	color:  #ffd600 !important;
+}
+.btn-rojo, .btn-rojo:active, .btn-rojo:visited {
+	background-color: #eeeeee !important;
+	border: 2px solid  #d50000 !important; 
+	color: #d50000 !important;
+	text-decoration: none;
+}
+.btn-rojo:hover{
+	background-color: #d50000  !important;
+	color:  white !important;
+}
+.btn-azul, .btn-azul:active, .btn-azul:visited {
+	background-color: #eeeeee !important;
+	border: 2px solid  #2962ff !important; 
+	color: #2962ff !important;
+	text-decoration: none;
+}
+.btn-azul:hover{
+	background-color: #2962ff  !important;
+	color:  white !important;
+}
+.btn-verde, .btn-verde:active, .btn-verde:visited {
+	background-color: #eeeeee !important;
+	border: 2px solid  #00a940 !important; 
+	color: #00a940 !important;
+	text-decoration: none;
+}
+.btn-verde:hover{
+	background-color: #00a940  !important;
+	color:  #000000 !important;
+}
+.btn-gris, .btn-gris:active, .btn-gris:visited {
+	background-color: #212121 !important;
+	border: 2px solid  #e0e0e0 !important; 
+	color: #e0e0e0 !important;
+	text-decoration: none;
+}
+.btn-gris:hover{
+	background-color: #e0e0e0  !important;
+	color:  #212121 !important;	
+}
+/*Transicion*/
+.btn-amarillo,.btn-amarilloSolid,.btn-rojo,.btn-azul,.btn-verde,.btn-gris,.btn-danger,.btn-default,.btn-success{
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.4s;
+	cursor: pointer;
+	border-radius:2em;
+}
+/*COLOR PAG PRINCIPAL*/
+.bg-1 { 
+	background-color: #ffd600; 
+	color: #212121;
+	padding: 50px 40px;
+}
+.bg-2 { 
+	background-color:#212121;
+	color: #e0e0e0;
+	padding: 80px 40px;
+}
+/*FOOTER*/
+/* Set black background color, white text and some padding */
+footer {
+	background-color: #484848;
+	color: #e0e0e0;
+	padding: 20px;
+}
+footer a{
+	color: #e0e0e0;
+}
+footer a:hover, footer .creditos a:hover{
+	color: #ffd600;
+	text-decoration: none;
+}
+footer .creditos, footer .creditos a{
+	font-size: 13px;
+}
+/*MODAL*/
+/*MODAL titulos:*/
+#ventana .modal-header{
+	background-color: #ffd600;
+}
+#ventana .modal-content .modal-header h4{
+	color: #000000 !important;
+}
+/*MODAL colores:*/
+div.modal-body{
+	background-color:#212121;
+}
+div.modal-footer{
+	background-color:#212121;
+}
+.modal-body .form-group label{
+	color:#e0e0e0;
+}
+/*FORMULARIOS*/
+.m-body,.panel{
+	background-color: #ffffff;
+}
+label{
+	font-weight: 500;
+}
+
+/*
+div.welcome h1{
+	color: #000000;
+	text-align: center;
+}
+div.img{
+	text-align: center;
+}
+div.img p{
+	text-align: center;
+	font-size: 25px;
+
+}
+div.img img{
+	width: 50%;
+
+}*/
+/*
+div.logeo button{
+	text-align: center;
+}*/
+/*
+div.form-group input{
+	background-color:#F4F4F4;
+	
+
+}*/

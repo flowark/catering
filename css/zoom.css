@@ -1,0 +1,15 @@
+.img-contenedor img {
+-webkit-transition:all .9s ease; /* Safari y Chrome */
+-moz-transition:all .9s ease; /* Firefox */
+-o-transition:all .9s ease; /* IE 9 */
+-ms-transition:all .9s ease; /* Opera */
+
+}
+.img-contenedor img:hover {
+-webkit-transform:scale(3.25);
+-moz-transform:scale(3.25);
+-ms-transform:scale(3.25);
+-o-transform:scale(3.25);
+transform:scale(3.25);
+z-index: 2;
+}
